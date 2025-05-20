@@ -36,7 +36,7 @@ npm install
 
 ## Avvio dell'applicazione
 
-Per avviare la CLI:
+Per avviare la CLI
 
 ```bash
 npm start
