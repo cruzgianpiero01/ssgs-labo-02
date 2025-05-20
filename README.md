@@ -25,6 +25,47 @@ Buona analisi e buon lavoro!
 
 *(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
 
----
+---Assicurati di avere [Node.js](https://nodejs.org/) versione 18 o superiore installato.
+
+Clona il repository e installa le dipendenze:
+
+```bash
+git clone https://github.com/cruzgianpiero01/ssgs-labo-02.git
+cd ssgs-labo-02
+npm install
+
+## Avvio dell'applicazione
+
+Per avviare la CLI:
+
+```bash
+npm start
+
+## Esecuzione dei test
+
+Per eseguire i test automatici:
+
+```bash
+npm test
+
+## Struttura del progetto
+
+```
+ssgs-labo-02/
+├── app.js
+├── index.js
+├── package.json
+├── .gitignore
+├── README.md
+├── __tests__/
+│   └── ... (test)
+└── ...
+```
+
+## Autore
+
+[Gian Piero Cruz](https://github.com/cruzgianpiero01)
+
+
 
 *Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
