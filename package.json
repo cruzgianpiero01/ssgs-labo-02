@@ -4,9 +4,30 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "npx jest --coverage --verbose"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["cli",
+    "string",
+    "utility",
+    "ssgs",
+    "laboratorio"],
+  "author": "Gian Piero Cru",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cruzgianpiero01/ssgs-labo-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cruzgianpiero01/ssgs-labo-02/issues"
+  },
+  "homepage": "https://github.com/cruzgianpiero01/ssgs-labo-02#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
 }
